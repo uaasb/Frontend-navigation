@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevNav - 前端导航 | 优质开发者资源工具站</title>
+    <meta name="description" content="DevNav 是一个为前端开发者打造的综合导航站。收录了 React, Vue, CSS, 动画库, UI组件, 在线工具, 学习教程等优质资源，助力高效开发。">
+    <meta name="keywords" content="前端导航, 开发者导航, 前端资源, Web开发, JavaScript, CSS, React, Vue, UI设计, 程序员工具">
+    <meta name="author" content="Razor">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://devnav.pages.dev/">
+    <meta property="og:title" content="DevNav - 前端开发者导航">
+    <meta property="og:description" content="一站式前端开发资源库，发现最新的框架、工具和设计灵感。">
+    <meta property="og:image" content="https://ui-avatars.com/api/?name=Dev+Nav&background=4f46e5&color=fff&size=512">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="DevNav - 前端开发者导航">
+    <meta property="twitter:description" content="一站式前端开发资源库，发现最新的框架、工具和设计灵感。">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              fontFamily: {
+                sans: ['Inter', 'sans-serif'],
+              },
+            }
+          }
+        }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      /* Custom scrollbar for webkit */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f5f9; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8; 
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
